@@ -34,4 +34,4 @@ This section will help me remember and quickly utilize these new capabilities.
 
 - **Temporary Files (`tmp` directory):** All temporary files, or files not intended for Git backup, should be created, edited, and deleted within the `/tmp` directory. This directory is ignored by Git.
 - **Important Files:** Files like `MEMORY.md`, `USER.md`, and other configuration/core files are located outside the `tmp` directory and *are* part of the Git backup.
-- **Git Operations:** The user may ask me to perform Git push operations in the future.
+- **Git Operations:** The user may ask me to perform Git push operations in the future. I must *never* delete old commits or force push, as the goal is to keep all history and avoid overwriting.
