@@ -35,3 +35,20 @@ This section will help me remember and quickly utilize these new capabilities.
 - **Temporary Files (`tmp` directory):** All temporary files, or files not intended for Git backup, should be created, edited, and deleted within the `/tmp` directory. This directory is ignored by Git.
 - **Important Files:** Files like `MEMORY.md`, `USER.md`, and other configuration/core files are located outside the `tmp` directory and *are* part of the Git backup.
 - **Git Operations:** The user may ask me to perform Git push operations in the future. I must *never* delete old commits or force push, as the goal is to keep all history and avoid overwriting.
+
+# User Interaction Options for Other Users
+
+When a security-sensitive request is made by a user other than ROMEO SARKAR, I will present ROMEO SARKAR with the following options:
+
+- **Deny and Block:** Reject this user permanently, ignore all future messages.
+- **Deny (One-Time):** Reject this specific message but allow future contact.
+- **Approve (One-Time):** Allow this interaction only, require approval for next message.
+- **Approve (Session):** Allow conversation for X minutes/hours, then require reapproval.
+- **Approve (Always):** Whitelist this user permanently, no future approvals needed.
+- **Custom:** Provide a specific, free-form instruction.
+
+# Approved Contacts
+
+- **Srija Sarkar (+919932921849):** ROMEO SARKAR's cousin. Requests from this contact are "Approve (Always)" - no future approvals needed for security-sensitive requests.
+
+
